@@ -1,0 +1,117 @@
+*{
+	padding : 0;
+	margin : 0;
+}
+section {
+	width : 900px;
+	height: 480px;
+	margin : auto;
+	text-align: center;
+	background-color: #f12093;
+	margin-top : 50px;
+	padding : 10px;
+	border-radius: 10px;
+}
+section h1{
+	font-size : 30px;
+	margin : 10px 0;
+}
+section label{
+	font-size : 20px;
+	margin-bottom: 10px;
+}
+#Boxes, #BoxesH {
+	width : 800px;
+	text-align: center;
+	margin : auto;
+	padding : 20px 0;
+	border-radius : 10px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6 {
+	width : 250px;
+	height: 350px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px black;
+	margin : 0 2px;
+	border-radius : 10px;
+	float: left;
+}
+h2{
+	padding : 10px 0;
+	border-bottom: 1px solid black;
+}
+.Amt{
+	padding : 10px 0;
+	border-bottom: 1px solid black;
+	font-size : 40px;
+}
+button{
+	background-color: blue;
+	color : #fff;
+	padding : 10px 0;
+	width : 100%;
+	font-weight: 700;
+	font-size : 15px;
+}
+#BoxesH{
+	display: none;
+}
+
+
+
+
+#box1:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box1:hover button{
+	background-color: #fff;
+	color : #000;
+}
+#box6:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box6:hover button{
+	background-color: #fff;
+	color : #000;
+}
+#box2:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box2:hover button{
+	background-color: #fff;
+	color : #000;
+}
+#box3:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box3:hover button{
+	background-color: #fff;
+	color : #000;
+}
+#box4:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box4:hover button{
+	background-color: #fff;
+	color : #000;
+}
+#box5:hover{
+	background-color: blue;
+	color : #fff;
+	height : 370px;
+}
+#box5:hover button{
+	background-color: #fff;
+	color : #000;
+}
